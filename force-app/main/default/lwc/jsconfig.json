@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "c/eventComp1": [
+                "eventComp1/eventComp1.js"
+            ],
+            "c/eventComp2": [
+                "eventComp2/eventComp2.js"
+            ],
+            "c/firstComp": [
+                "firstComp/firstComp.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
+            ],
+            "c/secondComp": [
+                "secondComp/secondComp.js"
+            ]
+        },
+        "experimentalDecorators": true
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
